@@ -1,0 +1,27 @@
+﻿@import "tailwindcss";
+
+@theme {
+  --color-primary: #ffb703;
+  --color-secondary: #fb8500;
+  --color-error: #d90429;
+  --color-success: #00FF9D;
+  --color-background: #0e0e0e;
+  --color-surface: #1a1919;
+  
+  --font-sans: "Inter", "sans-serif";
+  --font-overusedGrotesk: "Overused Grotesk", "sans-serif";
+  --font-calendas: "Calendas", "serif";
+}
+
+@layer base {
+  #react-hero-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100 !important;
+    pointer-events: none;
+    overflow: hidden;
+  }
+}

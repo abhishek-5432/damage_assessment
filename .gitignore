@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.env
+
+# Node.js
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Kilo & IDE specific
+.kilo/
+.kilocode/
+.vscode/
+.idea/
+
+# Backend Packages
+backend_package/
+backend_release.zip
+*.zip
+
+# OS specific
+.DS_Store
+Thumbs.db
